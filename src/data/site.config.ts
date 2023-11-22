@@ -10,8 +10,9 @@ interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
 	author: 'Diego Meneses', // Site author
-	title: 'Blog de Diego Meneses', // Site title.
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
+	title: 'Inmobipedia', // Site title.
+	description:
+		'Blog donde encontrarás información y consejos para invertir en la industria inmobiliaria.', // Description to display in the meta tags
 	lang: 'es-CL',
 	ogLocale: 'es-CL',
 	shareMessage: 'Comparte este post', // Message to share a post on social media
