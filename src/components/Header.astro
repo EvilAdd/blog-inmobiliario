@@ -2,6 +2,7 @@
 import HeaderLink from '@/components/HeaderLink'
 import TwitterIcon from '@/components/icons/TwitterIcon'
 import GithubIcon from '@/components/icons/GithubIcon'
+import LinkedinIcon from './icons/linkedinIcon.astro'
 import MenuIcon from './icons/MenuIcon.astro'
 import Search from '@/components/Search'
 import TagIcon from './icons/TagIcon.astro'
@@ -19,6 +20,12 @@ const SOCIALNETWORKS = [
 		name: 'Twitter',
 		url: 'https://twitter.com/Dimenarr',
 		icon: TwitterIcon
+	},
+
+	{
+		name: 'LinkedIn',
+		url: 'https://www.linkedin.com/in/menesesdia/',
+		icon: LinkedinIcon
 	}
 ]
 ---
@@ -60,7 +67,7 @@ const SOCIALNETWORKS = [
 		<ToggleTheme />
 		<button id='astro-header-drawer-button' type='button' class='md:ml-6 md:hidden'>
 			<MenuIcon />
-			<span class='sr-only'>Show Menu</span>
+			<span class='sr-only'>Mostrar menu</span>
 		</button>
 	</div>
 </header>
